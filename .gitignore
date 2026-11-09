@@ -1,0 +1,32 @@
+# Game files: never commit them (bring your own copy, see README)
+/game/
+*.iso
+*.ISO
+*.bin
+*.img
+*.pak
+*.PAK
+SLES_*
+
+# Everything generated from the game's code
+/generated/
+
+# Old local material kept out of the repository
+/_archive/
+
+# Build output and logs (the default build folder is C:\svs, outside the repo)
+/build*/
+*.log
+*.obj
+*.exe
+*.pdb
+imgui.ini
+
+# Python / editors / OS
+__pycache__/
+*.pyc
+.vs/
+.vscode/
+Thumbs.db
+desktop.ini
+.DS_Store
