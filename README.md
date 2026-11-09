@@ -13,16 +13,11 @@ sound effects and movies work. Performance and some graphics issues remain (see 
 
 ## Screenshots
 
-<!-- Put your images in docs/screenshots/ and reference them here. -->
 
 | | |
 |---|---|
 | ![In game](docs/screenshots/ingame-hideout.png) | ![Main menu](docs/screenshots/main-menu.png) |
-| *In game (current build)* | *Main menu — add `docs/screenshots/main-menu.png`* |
 | ![Mission](docs/screenshots/mission.png) | ![Widescreen](docs/screenshots/widescreen.png) |
-| *Mission — add `docs/screenshots/mission.png`* | *21:9 / 16:9 — add `docs/screenshots/widescreen.png`* |
-
-<!-- Optional: a short gameplay clip, e.g. docs/screenshots/gameplay.gif -->
 
 ## Supported version
 
