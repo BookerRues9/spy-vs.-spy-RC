@@ -1,4 +1,4 @@
-# Spy vs. Spy (PS2) — Native PC Port via PS2Recomp
+# Spy vs. Spy (PS2) — STATIC PC Port via PS2Recomp
 
 A native Windows port of **Spy vs. Spy** (PlayStation 2, 2005), made by statically recompiling the
 game's MIPS code to C++ with [PS2Recomp](https://github.com/ran-j/PS2Recomp) and running it on a
