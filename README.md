@@ -1,8 +1,19 @@
-# Spy vs. Spy (PS2) — STATIC PC Port via PS2Recomp
+# Spy vs. Spy (PS2) — Static Recompilation PC Port
 
 A native Windows port of **Spy vs. Spy** (PlayStation 2, 2005), made by statically recompiling the
 game's MIPS code to C++ with [PS2Recomp](https://github.com/ran-j/PS2Recomp) and running it on a
 patched PS2Recomp runtime with an OpenGL renderer.
+
+**What is native and what is emulated:** the game's EE (main MIPS CPU) code — game logic, AI,
+physics — is translated ahead of time to C++ and runs as native x86-64 code. The rest of the
+console is still emulated or reimplemented: the VU1 vector unit (its microprograms can be translated
+to C++, but they still model VU1 timing), the GS graphics chip (translated to OpenGL), VIF/DMA, the
+IOP (its original modules run in an interpreter) and the SPU2 sound chip. This is the same model as
+other recompilation ports (e.g. N64Recomp-based ones). In heavy scenes the VU1 emulation is the
+performance bottleneck.
+
+**The project is not actively maintained.** Issues and pull requests are welcome, but there is no
+guarantee they will be answered. Forks are encouraged.
 
 > **This repository contains no game code or data.** You need your own copy of the game
 > (see [Supported version](#supported-version)). All game-derived files (the recompiled C++,
