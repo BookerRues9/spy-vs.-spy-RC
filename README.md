@@ -19,7 +19,7 @@ guarantee they will be answered. Forks are encouraged.
 > (see [Supported version](#supported-version)). All game-derived files (the recompiled C++,
 > the precompiled VU1 microcode, the disc files) are generated locally and are git-ignored.
 
-**Status: playable, work in progress.** Boots, menus, memory card, story mode, missions, music,
+**Status: playable.** Boots, menus, memory card, story mode, missions, music,
 sound effects and movies work. Performance and some graphics issues remain (see [To do](#to-do)).
 
 ## Screenshots
